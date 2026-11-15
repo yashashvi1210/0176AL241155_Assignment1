@@ -1,0 +1,7 @@
+n = int(input("Enter a number: "))
+square = n * n
+
+if str(square).endswith(str(n)):
+    print(f"{n} is an Automorphic number ({n}² = {square})")
+else:
+    print(f"{n} is NOT an Automorphic number ({n}² = {square})")
